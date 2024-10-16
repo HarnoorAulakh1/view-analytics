@@ -12,7 +12,7 @@ export function FetchData({
   console.log(origin);
   useEffect(() => {
     let ts: NodeJS.Timeout;
-    ws = new WebSocket(`wss://seepbackend.onrender.com/?senderId=${origin}`);
+    ws = new WebSocket(`ws://localhost:4000/?senderId=${origin}`);
     const sendMessage = () => {
         if (ws.readyState === WebSocket.OPEN && origin != "default") {
           console.log("initial  sent");

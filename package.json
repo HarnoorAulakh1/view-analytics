@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "@rollup/plugin-babel": "^6.0.4",
+    "@types/node": "^22.7.5",
     "@types/uuid": "^10.0.0",
     "client-only": "^0.0.1",
     "framer-motion": "^11.3.27",
