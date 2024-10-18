@@ -1,7 +1,7 @@
 {
   "name": "view-analytics",
   "version": "1.0.0",
-  "description": "custom made notifucation package for react and nextjs",
+  "description": "custom made analytics package for react and nextjs",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
